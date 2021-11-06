@@ -1,14 +1,17 @@
 class Ship {
     constructor() {
-       this.startingPort = 'Dover'
+       this.currentPort = 'Dover'
     }
 
     setSail() {
-        if (!this.startingPort) {
-        rerurn; true 
-         } else { 
-            return false 
-        }
+        // if (!this.currentPort) {
+        // rerurn; true
+        //  } else { 
+        //     return false
+        // };
+        this.currentPort ="";
     }
 }
+
 module.exports = Ship;
+
