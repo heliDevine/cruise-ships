@@ -1,6 +1,9 @@
+const Port = require('../src/Port.js');
 class Ship {
     constructor() {
-       this.currentPort = 'Dover'
+       //this.currentPort = new Port("Dover")
+       //this.currentPort = new Port()
+       this.currentPort = Port
     }
 
     setSail() {
@@ -9,7 +12,7 @@ class Ship {
         //  } else { 
         //     return false
         // };
-        this.currentPort ="";
+        this.currentPort =0;
     }
 }
 
