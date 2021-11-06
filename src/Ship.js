@@ -14,6 +14,9 @@ class Ship {
         // };
         this.currentPort =0;
     }
+    dock(port) {
+        this.currentPort = port;
+    };
 }
 
 module.exports = Ship;
